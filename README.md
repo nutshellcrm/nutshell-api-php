@@ -32,6 +32,6 @@ The `NutshellApi` class provides synchronous (blocking) API calls. It is possibl
 
 [Nutshell](http://nutshell.com) is building modern CRM software around the needs of medium-sized companies. We’re working hard to deliver the future of business software: enterprise-level features with the ease-of-use found in popular web applications.
 
-At Nutshell, mobile is in our DNA. We believe in designing software to be cross-platform from day one, with robust APIs and native user interfaces. [Our iPhone application](http://itunes.apple.com/us/app/nutshell/id337938121?mt=8) - built using this API - is in the App Store, and an Andriod application is planned.
+At Nutshell, mobile is in our DNA. We believe in designing software to be cross-platform from day one, with robust APIs and native user interfaces. [Our iPhone application](http://itunes.apple.com/us/app/nutshell/id337938121?mt=8) - built using this API - is in the App Store, and an Android application is planned.
 
 The data you store in Nutshell belongs to you, and we've designed [our open API](http://nutshell.com/api) to make it possible for you to work with it however you wish. Please [contact us](http://www.nutshell.com/support/) with any questions on using the API.
