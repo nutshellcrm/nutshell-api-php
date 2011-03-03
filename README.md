@@ -14,7 +14,7 @@ Once you've cloned the repository, and assuming PHP is in your path:
 
 The `NutshellApi` class (in `NutshellApi.php`) provides a lightweight [JSON-RPC](http://json-rpc.org/) + [CURL](http://php.net/manual/en/book.curl.php) wrapper for the API which you can use for development. The class handles authentication and endpoint discovery. It should be instantiated once with a username and API key and, once instantiated, it should be reused for subsequent API calls.
 
-See [the API method list](http://www.nutshell.com/api/detail/class_nut___api___core.html) for a list of valid API methods.
+See **[the API method list](http://www.nutshell.com/api/detail/class_nut___api___core.html)** for a list of valid API methods.
 
 Read the comments in `NutshellApi.php` for additional information about the class, and open the example files to see how the `NutshellApi` class is used.
 
