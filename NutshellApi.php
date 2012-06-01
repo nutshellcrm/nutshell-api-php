@@ -76,7 +76,17 @@ class NutshellApi {
 	 * @throws NutshellApiException
 	 */
 	public function __call($name, $args) {
-		return $this->call($name, isset($args[0]) ? $args[0] : NULL);
+		$params = null;
+		if (isset($args[0])) {
+			if (is_array($args[0])) {
+				// e.g. $api->getLead(array('leadId' => 11))
+				$params = $args[0];
+			} else {
+				// e.g. $api->getLead(11)
+				$params = $args;
+			}
+		}
+		return $this->call($name, $params);
 	}
 	
 	/**
