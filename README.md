@@ -3,7 +3,7 @@ This is some sample code which will help you get started using [Nutshell's API](
 * a lightweight [JSON-RPC](http://json-rpc.org/) + [CURL](http://php.net/manual/en/book.curl.php) wrapper to ease making API calls and manage authentication and endpoint discovery
 * several examples which use that class to perform certain tasks in Nutshell
 
-## Running the Examples
+## Running the examples
 
 Once you've cloned the repository, and assuming PHP is in your path:
 
