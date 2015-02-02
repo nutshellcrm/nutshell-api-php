@@ -29,7 +29,7 @@
  */
 
 class NutshellApi {
-	const ENDPOINT_DISCOVER_URL = 'http://api.nutshell.com/v1/json';
+	const ENDPOINT_DISCOVER_URL = 'https://api.nutshell.com/v1/json';
 	protected $curl = NULL;
 	
 	/**
