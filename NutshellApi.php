@@ -58,7 +58,6 @@ class NutshellApi {
 		curl_setopt($this->curl, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($this->curl, CURLOPT_POST, true);
 		curl_setopt($this->curl, CURLOPT_HEADER, false);
-		curl_setopt($this->curl, CURLOPT_CAINFO, dirname(__FILE__).'/equifax_ca.crt');
 	}
 	
 	function __destruct() {
