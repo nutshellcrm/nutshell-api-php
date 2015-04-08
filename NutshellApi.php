@@ -160,6 +160,9 @@ class NutshellApi {
 		curl_close($curl);
 
 		$decoded = $this->json_decode($result);
+		if ($decoded->error !== NULL) {
+			throw new NutshellApiException($decoded->error->message);
+		}
 		return 'https://' . $decoded->result->api . '/api/v1/json';
 	}
 	
