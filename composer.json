@@ -1,5 +1,10 @@
 {
 	"name": "nutshellcrm/nutshell-api",
 	"description": "A PHP library for the Nutshell API",
-	"keywords": ["nutshell","crm"]
+	"keywords": ["nutshell","crm"],
+	"autoload": {
+            "files": [
+                "NutshellApi.php"
+            ]
+    }
 }
