@@ -1,0 +1,11 @@
+{
+    "name": "nutshellcrm/nutshell-api",
+    "description": "A PHP library for the Nutshell API",
+    "keywords": ["nutshell","crm"],
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "NutshellApi.php"
+        ]
+    }
+}
