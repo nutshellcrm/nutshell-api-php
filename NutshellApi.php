@@ -58,7 +58,7 @@ class NutshellApi {
 		curl_setopt($this->curl, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($this->curl, CURLOPT_POST, true);
 		curl_setopt($this->curl, CURLOPT_HEADER, false);
-		curl_setopt($this->curl, CURLOPT_CAINFO, dirname(__FILE__).'/geotrust_global_ca.crt');
+		curl_setopt($this->curl, CURLOPT_CAINFO, dirname(__FILE__).'/nutshell-ssl-roots.pem');
 	}
 	
 	function __destruct() {
@@ -152,7 +152,7 @@ class NutshellApi {
 		curl_setopt($curl, CURLOPT_POST, true);
 		curl_setopt($curl, CURLOPT_POSTFIELDS, $this->json_encode($payload));
 		curl_setopt($curl, CURLOPT_HEADER, false);
-		curl_setopt($curl, CURLOPT_CAINFO, dirname(__FILE__).'/geotrust_global_ca.crt');
+		curl_setopt($curl, CURLOPT_CAINFO, dirname(__FILE__).'/nutshell-ssl-roots.pem');
 		$result = curl_exec($curl);
 		if (curl_errno($curl)) {
 			throw new NutshellApiException('Curl error #' . curl_errno($curl) . ' while finding endpoint: '. curl_error($curl));
