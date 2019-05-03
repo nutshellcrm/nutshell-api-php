@@ -20,6 +20,8 @@ Read the comments in `NutshellApi.php` for additional information about the clas
 
 The `NutshellApi` class provides synchronous (blocking) API calls. It is possible to write an API class which provides asynchronous calls using the `id` field specified in [JSON-RPC](http://groups.google.com/group/json-rpc/web/json-rpc-2-0).
 
+This project is [covered by the MIT software license.](LICENSE.txt)
+
 ## Composer
 
 Thanks to the community [for nudging us to make this code compatible with Composer](https://github.com/nutshellcrm/nutshell-api-php/pull/5). While it's not meant to be a fully-supported SDK, you can use [composer](https://getcomposer.org/) to quickly add this project to your own.
